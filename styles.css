@@ -94,7 +94,12 @@ li {
     width: 100%;
     max-width: 1280px;
     margin: 0 auto;
-    padding-top: 32px;
+    padding: 32px 0 0 56px;
+}
+
+
+.header {
+    position: relative;
 }
 
 .header__img {
@@ -196,11 +201,12 @@ h1 {
     display: flex;
     flex-direction: column;
     align-items: center;
+    padding-left: 125px;
 }
 
 .row__narrrow {
     width: 100%;
-    max-width: 1200;
+    max-width: 1200px;
     margin: 0px auto;
 }
 
@@ -282,3 +288,25 @@ h1 {
     opacity: 0.25;
     padding: 16px;
 }
+#features {
+    position: relative;
+}
+
+/* QUALITY */
+
+
+section {
+    padding: 0 32px;
+}
+.container {
+    padding: 96px 0;
+}
+
+#quality .row {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+
+
